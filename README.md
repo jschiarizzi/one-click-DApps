@@ -17,9 +17,11 @@ The goal of this project is to make it easier to interact with smart contracts d
 
 ## Run the app
 
-1. Run `npm install` in both root directory, and in `/client`
+1. Run `npm install` in both root directory, **and** in `/client`
 2. Create `config.js` in `/db` and enter your mongoDB URL
->process.env.MONGODB_URI = "mongodb://..."
+>process.env.MONGODB_URI = "mongodb://...
+
+More info on connecting MongoDB [here](http://mongodb.github.io/node-mongodb-native/2.0/tutorials/urls/).
 3. cd to root directory and run `npm start`
 
 ## Contact
